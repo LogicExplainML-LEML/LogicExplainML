@@ -1,0 +1,4 @@
+150 samples (checar divisão de classes)
+
+time class 0 20.544690370559692 sec
+time class 1 10.523509502410889 sec
