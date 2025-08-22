@@ -35,7 +35,7 @@ iris = load_iris()
 X = pd.DataFrame(iris.data, columns=iris.feature_names)
 y = iris.target
 
-# Optional: Convert to binary classification
+# Convert to binary classification
 y[y == 2] = 0
 
 # Split the data
