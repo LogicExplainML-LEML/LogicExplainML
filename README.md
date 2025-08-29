@@ -9,7 +9,7 @@ By this date it only explains XGBoost models.
 You can install the package via pip:
 
 ```bash
-pip install logic-explain-ml
+pip install LogicExplainML
 ````
 
 ## Features
