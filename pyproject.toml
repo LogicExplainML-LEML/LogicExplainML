@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logic-explain-ml"
+version = "0.1.0"
+description = "XAI explainers to Machine Learning Models"
+authors = [
+    { name="Vinícius Peixoto", email="viniciuspxc@gmail.com" },
+]
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.7"
+dependencies = [
+  "z3-solver",
+  "numpy"
+]
+
+[project.urls]
+Homepage = "https://github.com/LogicExplainML-LEML/LogicExplainML"
+Repository = "https://github.com/LogicExplainML-LEML/LogicExplainML"
+Issues = "https://github.com/LogicExplainML-LEML/LogicExplainML/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
