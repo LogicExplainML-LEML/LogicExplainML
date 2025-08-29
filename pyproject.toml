@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "logic-explain-ml"
+name = "LogicExplainML"
 version = "0.1.0"
 description = "XAI explainers to Machine Learning Models"
 authors = [
