@@ -1,6 +1,6 @@
 # Logic Explain Machine Learning - LEML
 
-`logic-explain-ml` is a Python library for explaining predictions of Machine Learning models.
+`LogicExplainML` is a Python library for explaining predictions of Machine Learning models.
 It provides an easy-to-use interface to inspect feature importance and generate human-readable explanations for individual predictions.
 By this date it only explains XGBoost models.
 
